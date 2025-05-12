@@ -10,7 +10,7 @@ class EmailFormatError(Exception):
         return self.msg
 
 def Email_Validator(limit):
-    email_adresses =[]
+    email_adresses = []
     try:
         for _ in range(limit):
             email_id = input("Enter email address:")
