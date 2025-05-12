@@ -60,7 +60,7 @@ while ch != '5':
             print("Disconnected from service.....")
         else:
             print("Invalid input! Please enter choice number (1-4).\n")
-    except ValueError as e:
+    except ValueError:
         print("ERROR! Amount must be in numbers not in words.\n")
     except InsufficientFundsError as e:
         print(e)
